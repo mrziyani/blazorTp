@@ -1,0 +1,17 @@
+C:\Users\rziyani\source\repos\TpDay2\Service\bin\Debug\net9.0\Service.deps.json
+C:\Users\rziyani\source\repos\TpDay2\Service\bin\Debug\net9.0\Service.runtimeconfig.json
+C:\Users\rziyani\source\repos\TpDay2\Service\bin\Debug\net9.0\Service.dll
+C:\Users\rziyani\source\repos\TpDay2\Service\bin\Debug\net9.0\Service.pdb
+C:\Users\rziyani\source\repos\TpDay2\Service\bin\Debug\net9.0\DAL.dll
+C:\Users\rziyani\source\repos\TpDay2\Service\bin\Debug\net9.0\DAL.pdb
+C:\Users\rziyani\source\repos\TpDay2\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+C:\Users\rziyani\source\repos\TpDay2\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rziyani\source\repos\TpDay2\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+C:\Users\rziyani\source\repos\TpDay2\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+C:\Users\rziyani\source\repos\TpDay2\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\rziyani\source\repos\TpDay2\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+C:\Users\rziyani\source\repos\TpDay2\Service\obj\Debug\net9.0\Service.dll
+C:\Users\rziyani\source\repos\TpDay2\Service\obj\Debug\net9.0\refint\Service.dll
+C:\Users\rziyani\source\repos\TpDay2\Service\obj\Debug\net9.0\Service.pdb
+C:\Users\rziyani\source\repos\TpDay2\Service\obj\Debug\net9.0\Service.genruntimeconfig.cache
+C:\Users\rziyani\source\repos\TpDay2\Service\obj\Debug\net9.0\ref\Service.dll
