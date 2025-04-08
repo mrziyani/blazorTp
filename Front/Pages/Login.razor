@@ -1,7 +1,10 @@
 ﻿@page "/login"
 @using Front.Models
+@using Blazored.LocalStorage
 @using Front.Service
 @inject IUserService UserService
+@inject ILocalStorageService localStorage
+@inject NavigationManager Navigation
 
 <h3>Login</h3>
 
@@ -34,13 +37,16 @@
 
     private async Task HandleLogin()
     {
-        // Call your service method that wraps the API call.
-        // Suppose it returns a string token on successful login, or an empty string on failure.
+        // Call the API via UserService to get a JWT token
         var token = await UserService.LoginUserAsync(loginModel);
         if (!string.IsNullOrEmpty(token))
         {
+            // Store the token to local storage
+            await localStorage.SetItemAsync("authToken", token);
             message = "Logged in successfully!";
-            // You may wish to store the token in local storage or navigate to a different page.
+
+            // Optionally, navigate to a protected page (for example, the users list page)
+            Navigation.NavigateTo("/users");
         }
         else
         {
