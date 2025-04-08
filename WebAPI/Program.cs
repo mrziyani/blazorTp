@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Service;         // Pour MappingProfile, UserService, IJwtService, etc.
-using DAL.Models;      // Pour ApplicationDbContext et la classe User
-using DAL.Repositories; // Pour IUserRepository et UserRepository
+using Service;         // For MappingProfile, UserService, IJwtService, etc.
+using DAL.Models;      // For ApplicationDbContext and the User class
+using DAL.Repositories; // For IUserRepository and UserRepository
 using Microsoft.OpenApi.Models;
 using DAL;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -23,6 +23,17 @@ namespace WebAPI
 
             // Enregistrement des contrôleurs
             builder.Services.AddControllers();
+
+            // Ajouter la configuration CORS : autoriser l'origine de Blazor WebAssembly
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowBlazorWasm", policy =>
+                {
+                    policy.WithOrigins("https://localhost:7027")  // Remplacez par l'URL de votre application Blazor si différente.
+                          .AllowAnyHeader()
+                          .AllowAnyMethod();
+                });
+            });
 
             // Configuration de Swagger
             builder.Services.AddSwaggerGen(options =>
@@ -57,7 +68,7 @@ namespace WebAPI
 
             // Inscription des services personnalisés et repositories
             builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddScoped<Service.Services.UserService>(); // Vérifiez le namespace de UserService
+            builder.Services.AddScoped<Service.Services.UserService>(); // Vérifier le namespace de UserService
             builder.Services.AddScoped<IJwtService, JwtService>();
 
             // Configuration de l'authentification JWT
@@ -87,9 +98,14 @@ namespace WebAPI
             }
 
             app.UseHttpsRedirection();
+
+            // Utiliser CORS avant l'authentification pour gérer les requêtes preflight
+            app.UseCors("AllowBlazorWasm");
+
             app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllers();
+
             app.Run();
         }
     }

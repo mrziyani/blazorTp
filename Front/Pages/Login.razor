@@ -1,0 +1,50 @@
+﻿@page "/login"
+@using Front.Models
+@using Front.Service
+@inject IUserService UserService
+
+<h3>Login</h3>
+
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label>Username</label>
+        <InputText @bind-Value="loginModel.Username" class="form-control" />
+        <ValidationMessage For="@(() => loginModel.Username)" />
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <InputText @bind-Value="loginModel.Password" type="password" class="form-control" />
+        <ValidationMessage For="@(() => loginModel.Password)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <div class="mt-3 alert alert-info">@message</div>
+}
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+    private string message;
+
+    private async Task HandleLogin()
+    {
+        // Call your service method that wraps the API call.
+        // Suppose it returns a string token on successful login, or an empty string on failure.
+        var token = await UserService.LoginUserAsync(loginModel);
+        if (!string.IsNullOrEmpty(token))
+        {
+            message = "Logged in successfully!";
+            // You may wish to store the token in local storage or navigate to a different page.
+        }
+        else
+        {
+            message = "Login failed. Check your credentials.";
+        }
+    }
+}

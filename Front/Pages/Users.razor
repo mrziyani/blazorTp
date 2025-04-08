@@ -1,0 +1,79 @@
+﻿@page "/users"
+@using Front.Models
+@using Front.Service
+@inject IUserService UserService
+@inject NavigationManager Navigation
+
+<h3>Users List</h3>
+
+@if (loading)
+{
+    <p><em>Loading users...</em></p>
+}
+else if (errorMessage != null)
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+else if (users != null && users.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Username</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in users)
+            {
+                <tr>
+                    
+                    <td>@user.Username</td>
+                    <td>@user.Email</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No users found.</p>
+}
+
+@code {
+    private IEnumerable<User> users;
+    private bool loading = true;
+    private string errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Retrieve your token (from local storage, an authentication service, or similar).
+        // Here, we assume that you already stored the token after login.
+        // For instance, if you're using Blazored.LocalStorage:
+        // var token = await localStorage.GetItemAsync<string>("authToken");
+
+        // For demonstration, we're hardcoding a token variable. Replace this with your token retrieval logic.
+        string token = "your_jwt_token_here";
+
+        if (string.IsNullOrEmpty(token))
+        {
+            errorMessage = "You are not logged in.";
+            loading = false;
+            return;
+        }
+
+        try
+        {
+            users = await UserService.GetAllUsersAsync(token);
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Error retrieving users: {ex.Message}";
+        }
+        finally
+        {
+            loading = false;
+        }
+    }
+}
