@@ -63,12 +63,12 @@ namespace WebAPI
                 });
             });
 
-            // Inscription d'AutoMapper
+            // automap
             builder.Services.AddAutoMapper(typeof(MappingProfile));
 
-            // Inscription des services personnalisés et repositories
+            // Insjec serv
             builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddScoped<Service.Services.UserService>(); // Vérifier le namespace de UserService
+            builder.Services.AddScoped<Service.Services.UserService>(); 
             builder.Services.AddScoped<IJwtService, JwtService>();
 
             // Configuration de l'authentification JWT
