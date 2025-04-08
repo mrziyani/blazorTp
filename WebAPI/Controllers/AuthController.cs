@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Service.Services;
 using WebAPI.RequestModel;
 
@@ -44,6 +45,14 @@ namespace WebAPI.Controllers
            
             var token = _jwtService.GenerateToken(user.Id);
             return Ok(new { Token = token });
+        }
+
+        [HttpGet("users")]
+        [Authorize]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            var users = await _userService.GetAllUsersAsync();
+            return Ok(users);
         }
     }
 

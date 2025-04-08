@@ -27,5 +27,11 @@ namespace DAL.Repositories
             await _context.SaveChangesAsync();
             return user;
         }
+
+        public async Task<IEnumerable<User>> GetAllUsersAsync()
+        {
+            return await _context.Users.ToListAsync();
+            
+        }
     }
 }

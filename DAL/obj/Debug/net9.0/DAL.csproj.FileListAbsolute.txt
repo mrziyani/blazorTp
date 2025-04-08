@@ -12,3 +12,4 @@ C:\Users\rziyani\source\repos\TpDay2\DAL\obj\Debug\net9.0\refint\DAL.dll
 C:\Users\rziyani\source\repos\TpDay2\DAL\obj\Debug\net9.0\DAL.pdb
 C:\Users\rziyani\source\repos\TpDay2\DAL\obj\Debug\net9.0\DAL.genruntimeconfig.cache
 C:\Users\rziyani\source\repos\TpDay2\DAL\obj\Debug\net9.0\ref\DAL.dll
+C:\Users\rziyani\source\repos\TpDay2\DAL\obj\Debug\net9.0\DAL.sourcelink.json

@@ -47,6 +47,12 @@ namespace Service.Services
         {
             return BCrypt.Net.BCrypt.Verify(password, user.PasswordHash);
         }
+
+        public async Task<IEnumerable<UserDto>> GetAllUsersAsync()
+        {
+            var users = await _userRepository.GetAllUsersAsync();
+            return _mapper.Map<IEnumerable<UserDto>>(users);
+        }
     }
 
 }
