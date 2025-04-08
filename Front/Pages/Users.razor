@@ -4,8 +4,15 @@
 @using Blazored.LocalStorage
 @inject IUserService UserService
 @inject ILocalStorageService localStorage
+@inject NavigationManager NavigationManager
 
 <h3>Users List</h3>
+
+
+@if (isLoggedIn)
+{
+    <button class="btn btn-danger mb-3" @onclick="Logout">Logout</button>
+}
 
 @if (loading)
 {
@@ -20,7 +27,6 @@ else if (users != null && users.Any())
     <table class="table">
         <thead>
             <tr>
-                <th>Id</th>
                 <th>Username</th>
                 <th>Email</th>
             </tr>
@@ -29,7 +35,6 @@ else if (users != null && users.Any())
             @foreach (var user in users)
             {
                 <tr>
-                   
                     <td>@user.Username</td>
                     <td>@user.Email</td>
                 </tr>
@@ -46,11 +51,13 @@ else
     private IEnumerable<User> users;
     private bool loading = true;
     private string errorMessage;
+    private bool isLoggedIn;
 
     protected override async Task OnInitializedAsync()
     {
-        // Retrieve token from local storage
+        // Retrieve the token from local storage.
         string token = await localStorage.GetItemAsync<string>("authToken");
+        isLoggedIn = !string.IsNullOrEmpty(token);
 
         if (string.IsNullOrEmpty(token))
         {
@@ -61,7 +68,7 @@ else
 
         try
         {
-            // Call the protected API endpoint via the service
+            
             users = await UserService.GetAllUsersAsync(token);
         }
         catch (Exception ex)
@@ -72,5 +79,20 @@ else
         {
             loading = false;
         }
+    }
+
+    private async Task Logout()
+    {
+        
+        var token = await localStorage.GetItemAsync<string>("authToken");
+        if (!string.IsNullOrEmpty(token))
+        {
+            
+            await localStorage.RemoveItemAsync("authToken");
+            isLoggedIn = false;
+        }
+
+        
+        NavigationManager.NavigateTo("/login", forceLoad: true);
     }
 }

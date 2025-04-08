@@ -37,15 +37,15 @@
 
     private async Task HandleLogin()
     {
-        // Call the API via UserService to get a JWT token
+        
         var token = await UserService.LoginUserAsync(loginModel);
         if (!string.IsNullOrEmpty(token))
         {
-            // Store the token to local storage
+            
             await localStorage.SetItemAsync("authToken", token);
             message = "Logged in successfully!";
 
-            // Optionally, navigate to a protected page (for example, the users list page)
+            
             Navigation.NavigateTo("/users");
         }
         else
