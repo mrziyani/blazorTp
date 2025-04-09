@@ -1,98 +1,121 @@
-/* Basic Reset */
+/* Basic reset and styling */
 *[b-nfku0pvdke] {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
 body[b-nfku0pvdke] {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #ff7e5f, #feb47b); /* Gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
 }
 
-/* Container for centering content */
-.container[b-nfku0pvdke] {
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: #fff;
+/* Register container to center the form */
+.register-container[b-nfku0pvdke] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading */
-h3[b-nfku0pvdke] {
+/* Styling for the register form */
+.register-form[b-nfku0pvdke] {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 100%;
+    max-width: 400px; /* Set max-width for responsiveness */
+}
+
+/* Title styling */
+h3[b-nfku0pvdke] {
+    font-size: 2rem;
+    color: #333;
     margin-bottom: 20px;
-    font-size: 1.8em;
-    color: #007bff;
 }
 
-/* Form styles */
+/* Form group styling */
 .form-group[b-nfku0pvdke] {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
+/* Label styling */
 label[b-nfku0pvdke] {
-    font-weight: bold;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
     display: block;
-    margin-bottom: 8px;
+}
+
+/* Form control styling */
+.form-control[b-nfku0pvdke] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+    .form-control:focus[b-nfku0pvdke] {
+        outline: none;
+        border-color: #feb47b;
+        box-shadow: 0 0 10px rgba(255, 105, 180, 0.2);
+    }
+
+/* Button styling */
+button[b-nfku0pvdke] {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover[b-nfku0pvdke] {
+        background-color: #feb47b;
+    }
+
+    button:focus[b-nfku0pvdke] {
+        outline: none;
+    }
+
+/* Link styling */
+a[b-nfku0pvdke] {
+    color: #ff7e5f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    a:hover[b-nfku0pvdke] {
+        text-decoration: underline;
+    }
+
+p[b-nfku0pvdke] {
+    font-size: 0.9rem;
     color: #555;
 }
 
-/* Input styles */
-input.form-control[b-nfku0pvdke] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1em;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-    input.form-control:focus[b-nfku0pvdke] {
-        border-color: #007bff;
-        outline: none;
-        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .register-container[b-nfku0pvdke] {
+        padding: 10px;
     }
 
-/* Validation message styling */
-.validation-message[b-nfku0pvdke] {
-    color: #dc3545;
-    font-size: 0.9em;
-    margin-top: 5px;
-}
-
-/* Button styling */
-button.btn[b-nfku0pvdke] {
-    width: 100%;
-    padding: 12px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 1.1em;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-    button.btn:hover[b-nfku0pvdke] {
-        background-color: #0056b3;
+    .register-form[b-nfku0pvdke] {
+        padding: 20px;
     }
-
-/* Message box */
-.alert-info[b-nfku0pvdke] {
-    background-color: #d1ecf1;
-    color: #0c5460;
-    padding: 10px;
-    border-radius: 4px;
-    font-size: 1em;
-    margin-top: 20px;
-}
-
-.mt-3[b-nfku0pvdke] {
-    margin-top: 1rem !important;
 }

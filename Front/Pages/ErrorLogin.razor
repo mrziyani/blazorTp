@@ -1,0 +1,13 @@
+﻿@page "/Errorlogin"
+@inject NavigationManager navigationManager
+
+<div class="error-container">
+    <button class="btn btn-danger mb-3" @onclick="goLogIn">GO LOG IN FIRST</button>
+</div>
+
+@code {
+    protected void goLogIn()
+    {
+        navigationManager.NavigateTo("/login");
+    }
+}

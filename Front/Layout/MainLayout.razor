@@ -1,4 +1,8 @@
 ﻿@inherits LayoutComponentBase
+@using Blazored.LocalStorage
+@inject ILocalStorageService localStorage
+@inject NavigationManager NavigationManager
+
 <div class="page">
     <div class="sidebar">
         <NavMenu />
@@ -6,7 +10,7 @@
 
     <main>
         <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+            <button class="btn btn-danger mb-3" @onclick="Logout">Logout</button>
         </div>
 
         <article class="content px-4">
@@ -14,3 +18,6 @@
         </article>
     </main>
 </div>
+@code{
+    
+}

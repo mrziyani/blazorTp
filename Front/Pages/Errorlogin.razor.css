@@ -1,0 +1,52 @@
+﻿/* Basic reset and setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f0f0; /* Light background */
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+}
+
+/* Error container to center content */
+.error-container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the button */
+button {
+    padding: 15px 25px;
+    background-color: #dc3545; /* Red color for danger */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    button:hover {
+        background-color: #c82333; /* Darker red on hover */
+        transform: scale(1.05); /* Slightly enlarge the button on hover */
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+/* Text below button */
+p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 15px;
+}
