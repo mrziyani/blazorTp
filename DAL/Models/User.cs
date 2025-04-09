@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
 namespace DAL.Models
 {
@@ -11,7 +7,14 @@ namespace DAL.Models
         public int Id { get; set; }
         public string Username { get; set; }
         public string Email { get; set; }
-        public string PasswordHash { get; set; } 
-    }
+        public string PasswordHash { get; set; }
 
+        // Navigation Property for Posts
+        [JsonIgnore]
+        public ICollection<Post> Posts { get; set; }
+
+        // Navigation Property for Comments
+        [JsonIgnore]
+        public ICollection<Comment> Comments { get; set; }
+    }
 }

@@ -1,0 +1,69 @@
+﻿@page "/post-details/{PostId:int}"
+@layout MainLayout
+@using Front.Models
+@using Front.Service
+@inject IPostService PostService
+@inject ICommentService CommentService
+@inject NavigationManager NavigationManager
+
+<h3>Post Details</h3>
+
+@if (loading)
+{
+    <p><em>Loading...</em></p>
+}
+else if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+else if (post != null)
+{
+    <div class="card mb-4">
+        <div class="card-body">
+            <h4>@post.Title</h4>
+            <p>@post.Content</p>
+            <small class="text-muted">Posted on @post.CreatedAt.ToString("g")</small>
+        </div>
+    </div>
+
+    <h5>Comments</h5>
+    @if (comments != null && comments.Any())
+    {
+        foreach (var comment in comments)
+        {
+            <div class="border rounded p-2 mb-2">
+                <p>@comment.Content</p>
+                <small class="text-muted">@comment.CreatedAt.ToString("g")</small>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No comments available for this post.</p>
+    }
+}
+
+@code {
+    [Parameter] public int PostId { get; set; }
+    private Post post;
+    private List<Comment> comments;
+    private bool loading = true;
+    private string errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            post = await PostService.GetPostById(PostId);
+            comments = await CommentService.GetCommentsByPostIdAsync(PostId);
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Failed to load data: {ex.Message}";
+        }
+        finally
+        {
+            loading = false;
+        }
+    }
+}

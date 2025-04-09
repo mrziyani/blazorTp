@@ -168,6 +168,8 @@ C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\refint\WebAPI.dll
 C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\WebAPI.pdb
 C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\WebAPI.genruntimeconfig.cache
 C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\ref\WebAPI.dll
+C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\WebAPI.sourcelink.json
+C:\Users\rziyani\source\repos\TpDay2\WebAPI\bin\Debug\net9.0\Blazored.LocalStorage.dll
 C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\staticwebassets\msbuild.build.WebAPI.props
@@ -175,5 +177,3 @@ C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\staticwebassets\msb
 C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
 C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
-C:\Users\rziyani\source\repos\TpDay2\WebAPI\obj\Debug\net9.0\WebAPI.sourcelink.json
-C:\Users\rziyani\source\repos\TpDay2\WebAPI\bin\Debug\net9.0\Blazored.LocalStorage.dll

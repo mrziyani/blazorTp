@@ -15,6 +15,9 @@ public class Program
 
         builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
         builder.Services.AddScoped<IUserService, UserService>();
+        builder.Services.AddScoped<IPostService, PostService>();
+        builder.Services.AddScoped<ICommentService, CommentService>();
+
         builder.Services.AddBlazoredLocalStorage();
 
         await builder.Build().RunAsync();

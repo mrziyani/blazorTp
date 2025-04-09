@@ -68,7 +68,11 @@ namespace WebAPI
 
             // Insjec serv
             builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddScoped<Service.Services.UserService>(); 
+            builder.Services.AddScoped<IPostRepository, PostRepository>();
+            builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+            builder.Services.AddScoped<Service.Services.UserService>();
+            builder.Services.AddScoped<PostService>();
+            
             builder.Services.AddScoped<IJwtService, JwtService>();
 
             // Configuration de l'authentification JWT

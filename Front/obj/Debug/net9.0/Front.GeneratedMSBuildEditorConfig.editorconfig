@@ -32,8 +32,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/rziyani/source/repos/TpDay2/Front/Pages/Detail-post.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsLXBvc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rziyani/source/repos/TpDay2/Front/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rziyani/source/repos/TpDay2/Front/Pages/Posts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/rziyani/source/repos/TpDay2/Front/Pages/Users.razor]

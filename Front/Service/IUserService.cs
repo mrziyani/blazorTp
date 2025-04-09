@@ -7,5 +7,6 @@ namespace Front.Service
         Task<bool> RegisterUserAsync(User model);
         Task<string> LoginUserAsync(LoginModel model);
         Task<IEnumerable<User>> GetAllUsersAsync(string token);
+
     }
 }
