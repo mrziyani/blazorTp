@@ -1119,10 +1119,10 @@ C:\Users\rziyani\source\repos\TpDay2\Front\obj\Debug\net9.0\compressed\7v02xh98l
 C:\Users\rziyani\source\repos\TpDay2\Front\obj\Debug\net9.0\compressed\j2o69kenk7-qafrifugjr.gz
 C:\Users\rziyani\source\repos\TpDay2\Front\obj\Debug\net9.0\compressed\wmcohzg9vx-log61ajt28.gz
 C:\Users\rziyani\source\repos\TpDay2\Front\obj\Debug\net9.0\compressed\7fm76am4jx-e12aoin6r0.gz
-C:\Users\rziyani\source\repos\TpDay2\Front\bin\Debug\net9.0\wwwroot\_framework\Front.r1ckp7s0wi.pdb
-C:\Users\rziyani\source\repos\TpDay2\Front\bin\Debug\net9.0\wwwroot\_framework\Front.3m0j4ga1tb.wasm
-C:\Users\rziyani\source\repos\TpDay2\Front\bin\Debug\net9.0\wwwroot\_framework\Front.3m0j4ga1tb.wasm.gz
-C:\Users\rziyani\source\repos\TpDay2\Front\bin\Debug\net9.0\wwwroot\_framework\Front.r1ckp7s0wi.pdb.gz
-C:\Users\rziyani\source\repos\TpDay2\Front\obj\Debug\net9.0\compressed\35toea1p9i-3m0j4ga1tb.gz
-C:\Users\rziyani\source\repos\TpDay2\Front\obj\Debug\net9.0\compressed\ajijei7apr-r1ckp7s0wi.gz
-C:\Users\rziyani\source\repos\TpDay2\Front\obj\Debug\net9.0\compressed\afbh2ai2x9-8pcyzik5ps.gz
+C:\Users\rziyani\source\repos\TpDay2\Front\bin\Debug\net9.0\wwwroot\_framework\Front.q30w0c07as.pdb
+C:\Users\rziyani\source\repos\TpDay2\Front\bin\Debug\net9.0\wwwroot\_framework\Front.vwbwlhk2wm.wasm
+C:\Users\rziyani\source\repos\TpDay2\Front\bin\Debug\net9.0\wwwroot\_framework\Front.vwbwlhk2wm.wasm.gz
+C:\Users\rziyani\source\repos\TpDay2\Front\bin\Debug\net9.0\wwwroot\_framework\Front.q30w0c07as.pdb.gz
+C:\Users\rziyani\source\repos\TpDay2\Front\obj\Debug\net9.0\compressed\35toea1p9i-vwbwlhk2wm.gz
+C:\Users\rziyani\source\repos\TpDay2\Front\obj\Debug\net9.0\compressed\ajijei7apr-q30w0c07as.gz
+C:\Users\rziyani\source\repos\TpDay2\Front\obj\Debug\net9.0\compressed\afbh2ai2x9-2dgj3qxxl3.gz

@@ -13,6 +13,8 @@ namespace Service
         {
             
             CreateMap<User, UserDto>().ReverseMap();
+            CreateMap<Comment, CommentWithUserDto>()
+                .ForMember(dest => dest.Username, opt => opt.MapFrom(src => src.User.Username));    
         }
     }
 

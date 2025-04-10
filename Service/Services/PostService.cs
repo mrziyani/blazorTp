@@ -1,5 +1,7 @@
-﻿using DAL.Models;
+﻿using AutoMapper;
+using DAL.Models;
 using DAL.Repositories;
+using Service.DTO;
 
 using System;
 using System.Collections.Generic;
@@ -13,11 +15,14 @@ namespace Service.Services
     {
         private readonly IPostRepository _postRepository;
         private readonly ICommentRepository _commentRepository;
+        private readonly IMapper _mapper;
 
-        public PostService(IPostRepository postRepository, ICommentRepository commentRepository)
+
+        public PostService(IPostRepository postRepository, ICommentRepository commentRepository, IMapper mapper)
         {
             _postRepository = postRepository;
             _commentRepository = commentRepository;
+            _mapper = mapper;
         }
 
         public async Task<IEnumerable<Post>> GetAllPostsAsync()
@@ -60,6 +65,12 @@ namespace Service.Services
         {
             return await _postRepository.GetPostsByUserIdAsync(userId);
         }
+        public async Task<IEnumerable<CommentWithUserDto>> GetCommentsByPostWithUsersAsync(int postId)
+        {
+            var comments = await _commentRepository.GetCommentsByPostIdAsync(postId);
+            return _mapper.Map<IEnumerable<CommentWithUserDto>>(comments);
+        }
+
     }
 
 }

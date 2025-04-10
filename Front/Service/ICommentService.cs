@@ -5,5 +5,6 @@ namespace Front.Service
     {
         Task<List<Comment>> GetCommentsByPostIdAsync(int postId);
         Task<bool> CreateCommentAsync(CreateComment comment);
+        Task<List<CommentWithUser>> GetCommentsWithUserAsync(int postId);
     }
 }

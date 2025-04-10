@@ -36,7 +36,7 @@ else if (post != null)
         {
             <div class="border rounded p-2 mb-2">
                 <p>@comment.Content</p>
-                <small class="text-muted">@comment.CreatedAt.ToString("g")</small>
+                <small class="text-muted">By <strong>@comment.Username</strong> at @comment.CreatedAt.ToString("g")</small>
             </div>
         }
     }
@@ -54,8 +54,9 @@ else if (post != null)
 
 @code {
     [Parameter] public int PostId { get; set; }
+
     private Post post;
-    private List<Comment> comments;
+    private List<CommentWithUser> comments;
     private string newCommentContent;
     private bool loading = true;
     private string errorMessage;
@@ -71,12 +72,12 @@ else if (post != null)
             return;
         }
 
-        currentUserId = (int)TokenHelper.GetUserIdFromToken(token); // déjà bien fait
+        currentUserId = TokenHelper.GetUserIdFromToken(token) ?? 0;
 
         try
         {
             post = await PostService.GetPostById(PostId);
-            comments = await CommentService.GetCommentsByPostIdAsync(PostId);
+            comments = await CommentService.GetCommentsWithUserAsync(PostId);
         }
         catch (Exception ex)
         {
@@ -88,7 +89,6 @@ else if (post != null)
         }
     }
 
-
     private async Task SubmitComment()
     {
         if (!string.IsNullOrWhiteSpace(newCommentContent))
@@ -98,13 +98,13 @@ else if (post != null)
                     Content = newCommentContent,
                     CreatedAt = DateTime.Now,
                     PostId = PostId,
-                    UserId = currentUserId // Replace with actual user ID from auth/token
+                    UserId = currentUserId
                 };
 
             var success = await CommentService.CreateCommentAsync(newComment);
             if (success)
             {
-                comments = await CommentService.GetCommentsByPostIdAsync(PostId);
+                comments = await CommentService.GetCommentsWithUserAsync(PostId);
                 newCommentContent = string.Empty;
             }
             else

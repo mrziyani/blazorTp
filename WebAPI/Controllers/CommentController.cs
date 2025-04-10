@@ -33,6 +33,14 @@ namespace WebAPI.Controllers
             var createdComment = await _postService.CreateCommentAsync(comment);
             return CreatedAtAction(nameof(GetCommentsByPostId), new { postId = createdComment.PostId }, createdComment);
         }
+
+        [HttpGet("GetCommentsWithUsernames/{postId}")]
+        public async Task<IActionResult> GetCommentsWithUsernames(int postId)
+        {
+            var result = await _postService.GetCommentsByPostWithUsersAsync(postId);
+            return Ok(result);
+        }
+
     }
 
 }

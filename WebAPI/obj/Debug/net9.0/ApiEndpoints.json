@@ -74,6 +74,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebAPI.Controllers.CommentController",
+    "Method": "GetCommentsWithUsernames",
+    "RelativePath": "api/comments/GetCommentsWithUsernames/{postId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPI.Controllers.PostController",
     "Method": "UpdatePost",
     "RelativePath": "api/posts/{id}",

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Front",
   "resources": {
-    "hash": "sha256-qamA8k1j7jdi2VH9JTEb+0l01u21G+7p7sGiL0jTNvg=",
+    "hash": "sha256-KhFqxbLZ9QCMViEsDjxgrVuvtMG3+WERDYVOLbcXfvI=",
     "fingerprinting": {
       "AutoMapper.d25f1jjh2g.wasm": "AutoMapper.wasm",
       "AutoMapper.Extensions.Microsoft.DependencyInjection.okdexwd8pd.wasm": "AutoMapper.Extensions.Microsoft.DependencyInjection.wasm",
@@ -209,8 +209,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Front.3m0j4ga1tb.wasm": "Front.wasm",
-      "Front.r1ckp7s0wi.pdb": "Front.pdb"
+      "Front.vwbwlhk2wm.wasm": "Front.wasm",
+      "Front.q30w0c07as.pdb": "Front.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -428,10 +428,10 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "Front.3m0j4ga1tb.wasm": "sha256-2y28Jm8C0ZZSVWfzHMnAXHqnSf8wB6KrFTqwt8tN2g4="
+      "Front.vwbwlhk2wm.wasm": "sha256-sSKIkE0M2W71G23uKuA1BIdMEyp5k4V/4i3mElE950k="
     },
     "pdb": {
-      "Front.r1ckp7s0wi.pdb": "sha256-AZEoWahJQ4ypqE0pi922EVB60TpkK4AZBIFSWaluEfA="
+      "Front.q30w0c07as.pdb": "sha256-ese7ElydhnD3pbSspD/Bzr7FmeSE8Yw5AHYWmrRKsWY="
     }
   },
   "cacheBootResources": true,
