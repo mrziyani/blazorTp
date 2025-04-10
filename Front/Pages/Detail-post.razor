@@ -1,10 +1,13 @@
 ﻿@page "/post-details/{PostId:int}"
 @layout MainLayout
+@using Blazored.LocalStorage
+@using Front.Helpers
 @using Front.Models
 @using Front.Service
 @inject IPostService PostService
 @inject ICommentService CommentService
 @inject NavigationManager NavigationManager
+@inject ILocalStorageService localStorage
 
 <h3>Post Details</h3>
 
@@ -41,17 +44,35 @@ else if (post != null)
     {
         <p>No comments available for this post.</p>
     }
+
+    <div class="mt-4">
+        <h5>Add a Comment</h5>
+        <input type="text" class="form-control mb-2" @bind="newCommentContent" placeholder="Write your comment here..." />
+        <button class="btn btn-primary" @onclick="SubmitComment">Submit</button>
+    </div>
 }
 
 @code {
     [Parameter] public int PostId { get; set; }
     private Post post;
     private List<Comment> comments;
+    private string newCommentContent;
     private bool loading = true;
     private string errorMessage;
+    private int currentUserId;
 
     protected override async Task OnInitializedAsync()
     {
+        var token = await localStorage.GetItemAsync<string>("authToken");
+
+        if (string.IsNullOrEmpty(token))
+        {
+            NavigationManager.NavigateTo("/errorlogin");
+            return;
+        }
+
+        currentUserId = (int)TokenHelper.GetUserIdFromToken(token); // déjà bien fait
+
         try
         {
             post = await PostService.GetPostById(PostId);
@@ -64,6 +85,32 @@ else if (post != null)
         finally
         {
             loading = false;
+        }
+    }
+
+
+    private async Task SubmitComment()
+    {
+        if (!string.IsNullOrWhiteSpace(newCommentContent))
+        {
+            var newComment = new CreateComment
+                {
+                    Content = newCommentContent,
+                    CreatedAt = DateTime.Now,
+                    PostId = PostId,
+                    UserId = currentUserId // Replace with actual user ID from auth/token
+                };
+
+            var success = await CommentService.CreateCommentAsync(newComment);
+            if (success)
+            {
+                comments = await CommentService.GetCommentsByPostIdAsync(PostId);
+                newCommentContent = string.Empty;
+            }
+            else
+            {
+                errorMessage = "Failed to submit comment.";
+            }
         }
     }
 }

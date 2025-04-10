@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PfMZZRoRXnRiftd+7p8dGQZBgWx/NPL3wVfKma/p/fE=",
+  "Hash": "OXPUlsHnKUbDGHyf4GsTpLjw8sr0ZDLWceSBx/k0x3M=",
   "Source": "Front",
   "BasePath": "/",
   "Mode": "Root",
@@ -17,6 +17,48 @@
   ],
   "Assets": [
     {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AutoMapper.Extensions.Microsoft.DependencyInjection.wasm",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "okdexwd8pd",
+      "Integrity": "OE3feYoXLxAl9zUCJvpxyLpJ0bM0xRb+AOA1r+qX/aA=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\webcil\\AutoMapper.Extensions.Microsoft.DependencyInjection.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AutoMapper.wasm",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "d25f1jjh2g",
+      "Integrity": "ZQSB98bRoMRi9VGnS4rbVaTRPwmPIYrY1BBPbc2h38g=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\webcil\\AutoMapper.wasm"
+    },
+    {
       "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "Front",
       "SourceType": "Computed",
@@ -31,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "cy8ibp6aah",
-      "Integrity": "1MzXPtN91J9bSISyNaHrvLS8IEgp9urOkrqTSt6/xUw=",
+      "Fingerprint": "8pcyzik5ps",
+      "Integrity": "NIA5ZPTxt83HFjEgCYeoCRkhWAuvvw+h9/wva35JV5I=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -220,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "anu7yn8uan",
-      "Integrity": "GktE2Y6cKOCBR7B4dsGM/gXGj7tcLrYoWg85YrhfpgI=",
+      "Fingerprint": "r1ckp7s0wi",
+      "Integrity": "AZEoWahJQ4ypqE0pi922EVB60TpkK4AZBIFSWaluEfA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\Front.pdb"
@@ -241,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "b3opaug63i",
-      "Integrity": "N0hzYoZFBtk0FpomH0WlqBKTnHfKlz9+pjmkGZZnuFg=",
+      "Fingerprint": "3m0j4ga1tb",
+      "Integrity": "2y28Jm8C0ZZSVWfzHMnAXHqnSf8wB6KrFTqwt8tN2g4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\webcil\\Front.wasm"
@@ -750,6 +792,90 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.Primitives.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Abstractions.wasm",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Abstractions#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "czes0k4x7b",
+      "Integrity": "KHVRFeyphNW3DU01ahb3dOu43p45KLEREPeWOJNNZFw=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\webcil\\Microsoft.IdentityModel.Abstractions.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.wasm",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.JsonWebTokens#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "tpsadyu7ul",
+      "Integrity": "H7vn8Fq4jf6Bpj7opBtGSNI4as7HFI6h7WLQdVD3WNw=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\webcil\\Microsoft.IdentityModel.JsonWebTokens.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.wasm",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Logging#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "qafrifugjr",
+      "Integrity": "zqt4wAqLTq6CNrW8Vg4VqscChF4LBP3VUBV8XGJtcw8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\webcil\\Microsoft.IdentityModel.Logging.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.wasm",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Tokens#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "log61ajt28",
+      "Integrity": "C+1p0Fff1meaAJxa5LX5Yac0hUfWgyG3yCAWnM30Nak=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\webcil\\Microsoft.IdentityModel.Tokens.wasm"
     },
     {
       "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.JSInterop.wasm",
@@ -1695,6 +1821,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\webcil\\System.Globalization.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IdentityModel.Tokens.Jwt.wasm",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IdentityModel.Tokens.Jwt#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "e12aoin6r0",
+      "Integrity": "LkeH1GARiiqgGgnujCqOhCWQCXAsYZiMfwYKrlO/4wY=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\webcil\\System.IdentityModel.Tokens.Jwt.wasm"
     },
     {
       "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IO.Compression.Brotli.wasm",
@@ -4784,12 +4931,12 @@
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Reflection.DispatchProxy.wasm"
     },
     {
-      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\35toea1p9i-b3opaug63i.gz",
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\35toea1p9i-3m0j4ga1tb.gz",
       "SourceId": "Front",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Front#[.{fingerprint=b3opaug63i}]!.wasm.gz",
+      "RelativePath": "_framework/Front#[.{fingerprint=3m0j4ga1tb}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4798,11 +4945,32 @@
       "RelatedAsset": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Front.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mfzujnumuw",
-      "Integrity": "HuLitQsoYrCwi+FG/KZu/zx+70yOEO/BBfemCkWxIhM=",
+      "Fingerprint": "b59wmw9me4",
+      "Integrity": "saNh1PHEfrDYsXr4NzZiZuxtt7TL7cjEng6WfePr3+4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Front.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\3ksnmn4gw0-d25f1jjh2g.gz",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper#[.{fingerprint=d25f1jjh2g}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AutoMapper.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9gfc16wpyz",
+      "Integrity": "OZLW8fu6K8deieNEvC1inCK7R2Y9vZgoWUw7CccqY0s=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AutoMapper.wasm"
     },
     {
       "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\3m0k9o5too-r4e9w2rdcm.gz",
@@ -4992,6 +5160,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.ComponentModel.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\4k35a4emtb-okdexwd8pd.gz",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection#[.{fingerprint=okdexwd8pd}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AutoMapper.Extensions.Microsoft.DependencyInjection.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "o4o4zqfehk",
+      "Integrity": "KG7j8LdUve0NxYTWsKkzxmlLLXJVbdF+PZnJcRFQiKE=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AutoMapper.Extensions.Microsoft.DependencyInjection.wasm"
     },
     {
       "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\4rj8z2hks7-lr1lcyzef1.gz",
@@ -5435,6 +5624,27 @@
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.wasm"
     },
     {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\7fm76am4jx-e12aoin6r0.gz",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IdentityModel.Tokens.Jwt#[.{fingerprint=e12aoin6r0}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IdentityModel.Tokens.Jwt.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xq3vee2wtx",
+      "Integrity": "R/V2coxfD1vGmAlPwGfZRw/ceWjzGixHJ5D1RV0rKO4=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IdentityModel.Tokens.Jwt.wasm"
+    },
+    {
       "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\7lg19hagwu-weh8h3644m.gz",
       "SourceId": "Front",
       "SourceType": "Computed",
@@ -5454,6 +5664,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Win32.Primitives.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\7v02xh98lp-tpsadyu7ul.gz",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.JsonWebTokens#[.{fingerprint=tpsadyu7ul}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "warclm7dl1",
+      "Integrity": "OBIZC+GABuoZTAn7tfZdxAJB1NhbfDjdziRxMJD4pvQ=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.wasm"
     },
     {
       "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\84q891af1n-06098lyss8.gz",
@@ -5897,7 +6128,7 @@
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.wasm"
     },
     {
-      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\afbh2ai2x9-cy8ibp6aah.gz",
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\afbh2ai2x9-8pcyzik5ps.gz",
       "SourceId": "Front",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\",
@@ -5911,19 +6142,19 @@
       "RelatedAsset": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "t2op815k75",
-      "Integrity": "JULd7nMj8g1Y8XXc/dai/t0HsvPk+a3uuLsKCHjLw9E=",
+      "Fingerprint": "43mnb7rhh6",
+      "Integrity": "cNn4lgsK1o2vLroIr6/EPZ5HcCWMatw/8UmgB/B0rLg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
     },
     {
-      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\ajijei7apr-anu7yn8uan.gz",
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\ajijei7apr-r1ckp7s0wi.gz",
       "SourceId": "Front",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Front#[.{fingerprint=anu7yn8uan}]!.pdb.gz",
+      "RelativePath": "_framework/Front#[.{fingerprint=r1ckp7s0wi}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5932,8 +6163,8 @@
       "RelatedAsset": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Front.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "yedqrj353k",
-      "Integrity": "lqLHETwllUbdj1a/tFE3nZQRjkJA7tEEgoMkZcWhBSQ=",
+      "Fingerprint": "i3iq75dd3c",
+      "Integrity": "HolbBKD0A8h8/jsithKLBvkitjNM5qLt7M1rhxe60ak=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Front.pdb"
@@ -7344,6 +7575,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Data.Common.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\j2o69kenk7-qafrifugjr.gz",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Logging#[.{fingerprint=qafrifugjr}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "v1b3l6vl6o",
+      "Integrity": "s5dgAwhL76UGfn7D0m4q5I+yLRcS+nJWpzhUIVGSfxo=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.wasm"
     },
     {
       "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\j36qua3svj-svj8ec60o4.gz",
@@ -8921,6 +9173,27 @@
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Numerics.Vectors.wasm"
     },
     {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\v4vk6r15pi-czes0k4x7b.gz",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Abstractions#[.{fingerprint=czes0k4x7b}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Abstractions.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hj9tnyq5yq",
+      "Integrity": "jfQU9G9bIZdiJw7zvE+1LcftMUfGhU5jlNIOBoS9YV0=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Abstractions.wasm"
+    },
+    {
       "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\v5myfp44o2-rzd6atqjts.gz",
       "SourceId": "Front",
       "SourceType": "Discovered",
@@ -9150,6 +9423,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.ComponentModel.Primitives.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\wmcohzg9vx-log61ajt28.gz",
+      "SourceId": "Front",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Tokens#[.{fingerprint=log61ajt28}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "bq9r06et8t",
+      "Integrity": "A2K/nEPbpgVy68YJ5k+y6uQOPNZ4qZCW4Le1MPpqTiw=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.wasm"
     },
     {
       "Identity": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\wnpe1hwqvz-tptq2av103.gz",
@@ -10729,6 +11023,602 @@
   ],
   "Endpoints": [
     {
+      "Route": "_framework/AutoMapper.d25f1jjh2g.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AutoMapper.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "263445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZQSB98bRoMRi9VGnS4rbVaTRPwmPIYrY1BBPbc2h38g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:14:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d25f1jjh2g"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AutoMapper.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZQSB98bRoMRi9VGnS4rbVaTRPwmPIYrY1BBPbc2h38g="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AutoMapper.d25f1jjh2g.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\3ksnmn4gw0-d25f1jjh2g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000009127335"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109560"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OZLW8fu6K8deieNEvC1inCK7R2Y9vZgoWUw7CccqY0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:14:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZQSB98bRoMRi9VGnS4rbVaTRPwmPIYrY1BBPbc2h38g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d25f1jjh2g"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AutoMapper.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZQSB98bRoMRi9VGnS4rbVaTRPwmPIYrY1BBPbc2h38g="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AutoMapper.d25f1jjh2g.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\3ksnmn4gw0-d25f1jjh2g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OZLW8fu6K8deieNEvC1inCK7R2Y9vZgoWUw7CccqY0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:14:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d25f1jjh2g"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AutoMapper.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OZLW8fu6K8deieNEvC1inCK7R2Y9vZgoWUw7CccqY0s="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.okdexwd8pd.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AutoMapper.Extensions.Microsoft.DependencyInjection.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OE3feYoXLxAl9zUCJvpxyLpJ0bM0xRb+AOA1r+qX/aA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:20:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "okdexwd8pd"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OE3feYoXLxAl9zUCJvpxyLpJ0bM0xRb+AOA1r+qX/aA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.okdexwd8pd.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\4k35a4emtb-okdexwd8pd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000185150898"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5400"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KG7j8LdUve0NxYTWsKkzxmlLLXJVbdF+PZnJcRFQiKE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:20:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OE3feYoXLxAl9zUCJvpxyLpJ0bM0xRb+AOA1r+qX/aA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "okdexwd8pd"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OE3feYoXLxAl9zUCJvpxyLpJ0bM0xRb+AOA1r+qX/aA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.okdexwd8pd.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\4k35a4emtb-okdexwd8pd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KG7j8LdUve0NxYTWsKkzxmlLLXJVbdF+PZnJcRFQiKE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:20:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "okdexwd8pd"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KG7j8LdUve0NxYTWsKkzxmlLLXJVbdF+PZnJcRFQiKE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AutoMapper.Extensions.Microsoft.DependencyInjection.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OE3feYoXLxAl9zUCJvpxyLpJ0bM0xRb+AOA1r+qX/aA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:20:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OE3feYoXLxAl9zUCJvpxyLpJ0bM0xRb+AOA1r+qX/aA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\4k35a4emtb-okdexwd8pd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000185150898"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5400"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KG7j8LdUve0NxYTWsKkzxmlLLXJVbdF+PZnJcRFQiKE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:20:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OE3feYoXLxAl9zUCJvpxyLpJ0bM0xRb+AOA1r+qX/aA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OE3feYoXLxAl9zUCJvpxyLpJ0bM0xRb+AOA1r+qX/aA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\4k35a4emtb-okdexwd8pd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KG7j8LdUve0NxYTWsKkzxmlLLXJVbdF+PZnJcRFQiKE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:20:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KG7j8LdUve0NxYTWsKkzxmlLLXJVbdF+PZnJcRFQiKE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AutoMapper.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\AutoMapper.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "263445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZQSB98bRoMRi9VGnS4rbVaTRPwmPIYrY1BBPbc2h38g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:14:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZQSB98bRoMRi9VGnS4rbVaTRPwmPIYrY1BBPbc2h38g="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AutoMapper.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\3ksnmn4gw0-d25f1jjh2g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000009127335"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109560"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OZLW8fu6K8deieNEvC1inCK7R2Y9vZgoWUw7CccqY0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:14:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZQSB98bRoMRi9VGnS4rbVaTRPwmPIYrY1BBPbc2h38g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZQSB98bRoMRi9VGnS4rbVaTRPwmPIYrY1BBPbc2h38g="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/AutoMapper.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\3ksnmn4gw0-d25f1jjh2g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OZLW8fu6K8deieNEvC1inCK7R2Y9vZgoWUw7CccqY0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:14:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OZLW8fu6K8deieNEvC1inCK7R2Y9vZgoWUw7CccqY0s="
+        }
+      ]
+    },
+    {
       "Route": "_framework/blazor.boot.json",
       "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "Selectors": [],
@@ -10739,7 +11629,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39322"
+          "Value": "40826"
         },
         {
           "Name": "Content-Type",
@@ -10747,11 +11637,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1MzXPtN91J9bSISyNaHrvLS8IEgp9urOkrqTSt6/xUw=\""
+          "Value": "\"NIA5ZPTxt83HFjEgCYeoCRkhWAuvvw+h9/wva35JV5I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:07 GMT"
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10761,18 +11651,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1MzXPtN91J9bSISyNaHrvLS8IEgp9urOkrqTSt6/xUw="
+          "Value": "sha256-NIA5ZPTxt83HFjEgCYeoCRkhWAuvvw+h9/wva35JV5I="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\afbh2ai2x9-cy8ibp6aah.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\afbh2ai2x9-8pcyzik5ps.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080638658"
+          "Quality": "0.000077911959"
         }
       ],
       "ResponseHeaders": [
@@ -10782,15 +11672,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12400"
+          "Value": "12834"
         },
         {
           "Name": "ETag",
-          "Value": "\"JULd7nMj8g1Y8XXc/dai/t0HsvPk+a3uuLsKCHjLw9E=\""
+          "Value": "\"cNn4lgsK1o2vLroIr6/EPZ5HcCWMatw/8UmgB/B0rLg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:23:27 GMT"
+          "Value": "Thu, 10 Apr 2025 08:42:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10810,19 +11700,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1MzXPtN91J9bSISyNaHrvLS8IEgp9urOkrqTSt6/xUw=\""
+          "Value": "W/\"NIA5ZPTxt83HFjEgCYeoCRkhWAuvvw+h9/wva35JV5I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1MzXPtN91J9bSISyNaHrvLS8IEgp9urOkrqTSt6/xUw="
+          "Value": "sha256-NIA5ZPTxt83HFjEgCYeoCRkhWAuvvw+h9/wva35JV5I="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\afbh2ai2x9-cy8ibp6aah.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\afbh2ai2x9-8pcyzik5ps.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10831,7 +11721,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12400"
+          "Value": "12834"
         },
         {
           "Name": "Content-Type",
@@ -10839,11 +11729,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JULd7nMj8g1Y8XXc/dai/t0HsvPk+a3uuLsKCHjLw9E=\""
+          "Value": "\"cNn4lgsK1o2vLroIr6/EPZ5HcCWMatw/8UmgB/B0rLg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:23:27 GMT"
+          "Value": "Thu, 10 Apr 2025 08:42:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10861,7 +11751,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JULd7nMj8g1Y8XXc/dai/t0HsvPk+a3uuLsKCHjLw9E="
+          "Value": "sha256-cNn4lgsK1o2vLroIr6/EPZ5HcCWMatw/8UmgB/B0rLg="
         }
       ]
     },
@@ -13089,168 +13979,7 @@
       ]
     },
     {
-      "Route": "_framework/Front.anu7yn8uan.pdb",
-      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Front.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "42120"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GktE2Y6cKOCBR7B4dsGM/gXGj7tcLrYoWg85YrhfpgI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "anu7yn8uan"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Front.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GktE2Y6cKOCBR7B4dsGM/gXGj7tcLrYoWg85YrhfpgI="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Front.anu7yn8uan.pdb",
-      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\ajijei7apr-anu7yn8uan.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000031196381"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32054"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lqLHETwllUbdj1a/tFE3nZQRjkJA7tEEgoMkZcWhBSQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"GktE2Y6cKOCBR7B4dsGM/gXGj7tcLrYoWg85YrhfpgI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "anu7yn8uan"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Front.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GktE2Y6cKOCBR7B4dsGM/gXGj7tcLrYoWg85YrhfpgI="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Front.anu7yn8uan.pdb.gz",
-      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\ajijei7apr-anu7yn8uan.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32054"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lqLHETwllUbdj1a/tFE3nZQRjkJA7tEEgoMkZcWhBSQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "anu7yn8uan"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Front.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-lqLHETwllUbdj1a/tFE3nZQRjkJA7tEEgoMkZcWhBSQ="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Front.b3opaug63i.wasm",
+      "Route": "_framework/Front.3m0j4ga1tb.wasm",
       "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Front.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13260,7 +13989,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "48917"
+          "Value": "54549"
         },
         {
           "Name": "Content-Type",
@@ -13268,11 +13997,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N0hzYoZFBtk0FpomH0WlqBKTnHfKlz9+pjmkGZZnuFg=\""
+          "Value": "\"2y28Jm8C0ZZSVWfzHMnAXHqnSf8wB6KrFTqwt8tN2g4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:06 GMT"
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13282,7 +14011,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b3opaug63i"
+          "Value": "3m0j4ga1tb"
         },
         {
           "Name": "label",
@@ -13290,18 +14019,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N0hzYoZFBtk0FpomH0WlqBKTnHfKlz9+pjmkGZZnuFg="
+          "Value": "sha256-2y28Jm8C0ZZSVWfzHMnAXHqnSf8wB6KrFTqwt8tN2g4="
         }
       ]
     },
     {
-      "Route": "_framework/Front.b3opaug63i.wasm",
-      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\35toea1p9i-b3opaug63i.gz",
+      "Route": "_framework/Front.3m0j4ga1tb.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\35toea1p9i-3m0j4ga1tb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000051501262"
+          "Quality": "0.000045858938"
         }
       ],
       "ResponseHeaders": [
@@ -13311,15 +14040,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19416"
+          "Value": "21805"
         },
         {
           "Name": "ETag",
-          "Value": "\"HuLitQsoYrCwi+FG/KZu/zx+70yOEO/BBfemCkWxIhM=\""
+          "Value": "\"saNh1PHEfrDYsXr4NzZiZuxtt7TL7cjEng6WfePr3+4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:07 GMT"
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13339,13 +14068,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"N0hzYoZFBtk0FpomH0WlqBKTnHfKlz9+pjmkGZZnuFg=\""
+          "Value": "W/\"2y28Jm8C0ZZSVWfzHMnAXHqnSf8wB6KrFTqwt8tN2g4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b3opaug63i"
+          "Value": "3m0j4ga1tb"
         },
         {
           "Name": "label",
@@ -13353,13 +14082,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N0hzYoZFBtk0FpomH0WlqBKTnHfKlz9+pjmkGZZnuFg="
+          "Value": "sha256-2y28Jm8C0ZZSVWfzHMnAXHqnSf8wB6KrFTqwt8tN2g4="
         }
       ]
     },
     {
-      "Route": "_framework/Front.b3opaug63i.wasm.gz",
-      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\35toea1p9i-b3opaug63i.gz",
+      "Route": "_framework/Front.3m0j4ga1tb.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\35toea1p9i-3m0j4ga1tb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13368,7 +14097,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19416"
+          "Value": "21805"
         },
         {
           "Name": "Content-Type",
@@ -13376,11 +14105,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HuLitQsoYrCwi+FG/KZu/zx+70yOEO/BBfemCkWxIhM=\""
+          "Value": "\"saNh1PHEfrDYsXr4NzZiZuxtt7TL7cjEng6WfePr3+4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:07 GMT"
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13398,7 +14127,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b3opaug63i"
+          "Value": "3m0j4ga1tb"
         },
         {
           "Name": "label",
@@ -13406,7 +14135,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HuLitQsoYrCwi+FG/KZu/zx+70yOEO/BBfemCkWxIhM="
+          "Value": "sha256-saNh1PHEfrDYsXr4NzZiZuxtt7TL7cjEng6WfePr3+4="
         }
       ]
     },
@@ -13421,7 +14150,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "42120"
+          "Value": "45252"
         },
         {
           "Name": "Content-Type",
@@ -13429,11 +14158,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GktE2Y6cKOCBR7B4dsGM/gXGj7tcLrYoWg85YrhfpgI=\""
+          "Value": "\"AZEoWahJQ4ypqE0pi922EVB60TpkK4AZBIFSWaluEfA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:06 GMT"
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13443,18 +14172,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GktE2Y6cKOCBR7B4dsGM/gXGj7tcLrYoWg85YrhfpgI="
+          "Value": "sha256-AZEoWahJQ4ypqE0pi922EVB60TpkK4AZBIFSWaluEfA="
         }
       ]
     },
     {
       "Route": "_framework/Front.pdb",
-      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\ajijei7apr-anu7yn8uan.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\ajijei7apr-r1ckp7s0wi.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000031196381"
+          "Quality": "0.000029389291"
         }
       ],
       "ResponseHeaders": [
@@ -13464,15 +14193,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32054"
+          "Value": "34025"
         },
         {
           "Name": "ETag",
-          "Value": "\"lqLHETwllUbdj1a/tFE3nZQRjkJA7tEEgoMkZcWhBSQ=\""
+          "Value": "\"HolbBKD0A8h8/jsithKLBvkitjNM5qLt7M1rhxe60ak=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:07 GMT"
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13492,19 +14221,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GktE2Y6cKOCBR7B4dsGM/gXGj7tcLrYoWg85YrhfpgI=\""
+          "Value": "W/\"AZEoWahJQ4ypqE0pi922EVB60TpkK4AZBIFSWaluEfA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GktE2Y6cKOCBR7B4dsGM/gXGj7tcLrYoWg85YrhfpgI="
+          "Value": "sha256-AZEoWahJQ4ypqE0pi922EVB60TpkK4AZBIFSWaluEfA="
         }
       ]
     },
     {
       "Route": "_framework/Front.pdb.gz",
-      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\ajijei7apr-anu7yn8uan.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\ajijei7apr-r1ckp7s0wi.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13513,7 +14242,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32054"
+          "Value": "34025"
         },
         {
           "Name": "Content-Type",
@@ -13521,11 +14250,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lqLHETwllUbdj1a/tFE3nZQRjkJA7tEEgoMkZcWhBSQ=\""
+          "Value": "\"HolbBKD0A8h8/jsithKLBvkitjNM5qLt7M1rhxe60ak=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:07 GMT"
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13543,7 +14272,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lqLHETwllUbdj1a/tFE3nZQRjkJA7tEEgoMkZcWhBSQ="
+          "Value": "sha256-HolbBKD0A8h8/jsithKLBvkitjNM5qLt7M1rhxe60ak="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Front.r1ckp7s0wi.pdb",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Front.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AZEoWahJQ4ypqE0pi922EVB60TpkK4AZBIFSWaluEfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1ckp7s0wi"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Front.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AZEoWahJQ4ypqE0pi922EVB60TpkK4AZBIFSWaluEfA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Front.r1ckp7s0wi.pdb",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\ajijei7apr-r1ckp7s0wi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000029389291"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34025"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HolbBKD0A8h8/jsithKLBvkitjNM5qLt7M1rhxe60ak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AZEoWahJQ4ypqE0pi922EVB60TpkK4AZBIFSWaluEfA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1ckp7s0wi"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Front.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AZEoWahJQ4ypqE0pi922EVB60TpkK4AZBIFSWaluEfA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Front.r1ckp7s0wi.pdb.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\ajijei7apr-r1ckp7s0wi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HolbBKD0A8h8/jsithKLBvkitjNM5qLt7M1rhxe60ak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1ckp7s0wi"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Front.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HolbBKD0A8h8/jsithKLBvkitjNM5qLt7M1rhxe60ak="
         }
       ]
     },
@@ -13558,7 +14448,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "48917"
+          "Value": "54549"
         },
         {
           "Name": "Content-Type",
@@ -13566,11 +14456,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N0hzYoZFBtk0FpomH0WlqBKTnHfKlz9+pjmkGZZnuFg=\""
+          "Value": "\"2y28Jm8C0ZZSVWfzHMnAXHqnSf8wB6KrFTqwt8tN2g4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:06 GMT"
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13580,18 +14470,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N0hzYoZFBtk0FpomH0WlqBKTnHfKlz9+pjmkGZZnuFg="
+          "Value": "sha256-2y28Jm8C0ZZSVWfzHMnAXHqnSf8wB6KrFTqwt8tN2g4="
         }
       ]
     },
     {
       "Route": "_framework/Front.wasm",
-      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\35toea1p9i-b3opaug63i.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\35toea1p9i-3m0j4ga1tb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000051501262"
+          "Quality": "0.000045858938"
         }
       ],
       "ResponseHeaders": [
@@ -13601,15 +14491,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19416"
+          "Value": "21805"
         },
         {
           "Name": "ETag",
-          "Value": "\"HuLitQsoYrCwi+FG/KZu/zx+70yOEO/BBfemCkWxIhM=\""
+          "Value": "\"saNh1PHEfrDYsXr4NzZiZuxtt7TL7cjEng6WfePr3+4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:07 GMT"
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13629,19 +14519,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"N0hzYoZFBtk0FpomH0WlqBKTnHfKlz9+pjmkGZZnuFg=\""
+          "Value": "W/\"2y28Jm8C0ZZSVWfzHMnAXHqnSf8wB6KrFTqwt8tN2g4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N0hzYoZFBtk0FpomH0WlqBKTnHfKlz9+pjmkGZZnuFg="
+          "Value": "sha256-2y28Jm8C0ZZSVWfzHMnAXHqnSf8wB6KrFTqwt8tN2g4="
         }
       ]
     },
     {
       "Route": "_framework/Front.wasm.gz",
-      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\35toea1p9i-b3opaug63i.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\35toea1p9i-3m0j4ga1tb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13650,7 +14540,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19416"
+          "Value": "21805"
         },
         {
           "Name": "Content-Type",
@@ -13658,11 +14548,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HuLitQsoYrCwi+FG/KZu/zx+70yOEO/BBfemCkWxIhM=\""
+          "Value": "\"saNh1PHEfrDYsXr4NzZiZuxtt7TL7cjEng6WfePr3+4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 16:25:07 GMT"
+          "Value": "Thu, 10 Apr 2025 08:47:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13680,7 +14570,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HuLitQsoYrCwi+FG/KZu/zx+70yOEO/BBfemCkWxIhM="
+          "Value": "sha256-saNh1PHEfrDYsXr4NzZiZuxtt7TL7cjEng6WfePr3+4="
         }
       ]
     },
@@ -20833,6 +21723,1198 @@
         {
           "Name": "integrity",
           "Value": "sha256-yTigeDaxck5F2shUpucjHiPPnAGxxBlS/dK6YNtN/lM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Abstractions.czes0k4x7b.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KHVRFeyphNW3DU01ahb3dOu43p45KLEREPeWOJNNZFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "czes0k4x7b"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.IdentityModel.Abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KHVRFeyphNW3DU01ahb3dOu43p45KLEREPeWOJNNZFw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Abstractions.czes0k4x7b.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\v4vk6r15pi-czes0k4x7b.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000253228665"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3948"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jfQU9G9bIZdiJw7zvE+1LcftMUfGhU5jlNIOBoS9YV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KHVRFeyphNW3DU01ahb3dOu43p45KLEREPeWOJNNZFw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "czes0k4x7b"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.IdentityModel.Abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KHVRFeyphNW3DU01ahb3dOu43p45KLEREPeWOJNNZFw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Abstractions.czes0k4x7b.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\v4vk6r15pi-czes0k4x7b.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jfQU9G9bIZdiJw7zvE+1LcftMUfGhU5jlNIOBoS9YV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "czes0k4x7b"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.IdentityModel.Abstractions.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jfQU9G9bIZdiJw7zvE+1LcftMUfGhU5jlNIOBoS9YV0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Abstractions.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KHVRFeyphNW3DU01ahb3dOu43p45KLEREPeWOJNNZFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KHVRFeyphNW3DU01ahb3dOu43p45KLEREPeWOJNNZFw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Abstractions.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\v4vk6r15pi-czes0k4x7b.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000253228665"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3948"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jfQU9G9bIZdiJw7zvE+1LcftMUfGhU5jlNIOBoS9YV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KHVRFeyphNW3DU01ahb3dOu43p45KLEREPeWOJNNZFw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KHVRFeyphNW3DU01ahb3dOu43p45KLEREPeWOJNNZFw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Abstractions.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\v4vk6r15pi-czes0k4x7b.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jfQU9G9bIZdiJw7zvE+1LcftMUfGhU5jlNIOBoS9YV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jfQU9G9bIZdiJw7zvE+1LcftMUfGhU5jlNIOBoS9YV0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.JsonWebTokens.tpsadyu7ul.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H7vn8Fq4jf6Bpj7opBtGSNI4as7HFI6h7WLQdVD3WNw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tpsadyu7ul"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.IdentityModel.JsonWebTokens.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H7vn8Fq4jf6Bpj7opBtGSNI4as7HFI6h7WLQdVD3WNw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.JsonWebTokens.tpsadyu7ul.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\7v02xh98lp-tpsadyu7ul.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000018636203"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53658"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OBIZC+GABuoZTAn7tfZdxAJB1NhbfDjdziRxMJD4pvQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"H7vn8Fq4jf6Bpj7opBtGSNI4as7HFI6h7WLQdVD3WNw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tpsadyu7ul"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.IdentityModel.JsonWebTokens.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H7vn8Fq4jf6Bpj7opBtGSNI4as7HFI6h7WLQdVD3WNw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.JsonWebTokens.tpsadyu7ul.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\7v02xh98lp-tpsadyu7ul.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OBIZC+GABuoZTAn7tfZdxAJB1NhbfDjdziRxMJD4pvQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tpsadyu7ul"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.IdentityModel.JsonWebTokens.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OBIZC+GABuoZTAn7tfZdxAJB1NhbfDjdziRxMJD4pvQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.JsonWebTokens.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.JsonWebTokens.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H7vn8Fq4jf6Bpj7opBtGSNI4as7HFI6h7WLQdVD3WNw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H7vn8Fq4jf6Bpj7opBtGSNI4as7HFI6h7WLQdVD3WNw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.JsonWebTokens.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\7v02xh98lp-tpsadyu7ul.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000018636203"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53658"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OBIZC+GABuoZTAn7tfZdxAJB1NhbfDjdziRxMJD4pvQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"H7vn8Fq4jf6Bpj7opBtGSNI4as7HFI6h7WLQdVD3WNw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H7vn8Fq4jf6Bpj7opBtGSNI4as7HFI6h7WLQdVD3WNw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.JsonWebTokens.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\7v02xh98lp-tpsadyu7ul.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OBIZC+GABuoZTAn7tfZdxAJB1NhbfDjdziRxMJD4pvQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OBIZC+GABuoZTAn7tfZdxAJB1NhbfDjdziRxMJD4pvQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Logging.qafrifugjr.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zqt4wAqLTq6CNrW8Vg4VqscChF4LBP3VUBV8XGJtcw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qafrifugjr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.IdentityModel.Logging.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zqt4wAqLTq6CNrW8Vg4VqscChF4LBP3VUBV8XGJtcw8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Logging.qafrifugjr.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\j2o69kenk7-qafrifugjr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000098512462"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10150"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s5dgAwhL76UGfn7D0m4q5I+yLRcS+nJWpzhUIVGSfxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zqt4wAqLTq6CNrW8Vg4VqscChF4LBP3VUBV8XGJtcw8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qafrifugjr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.IdentityModel.Logging.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zqt4wAqLTq6CNrW8Vg4VqscChF4LBP3VUBV8XGJtcw8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Logging.qafrifugjr.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\j2o69kenk7-qafrifugjr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s5dgAwhL76UGfn7D0m4q5I+yLRcS+nJWpzhUIVGSfxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qafrifugjr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.IdentityModel.Logging.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s5dgAwhL76UGfn7D0m4q5I+yLRcS+nJWpzhUIVGSfxo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Logging.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Logging.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zqt4wAqLTq6CNrW8Vg4VqscChF4LBP3VUBV8XGJtcw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zqt4wAqLTq6CNrW8Vg4VqscChF4LBP3VUBV8XGJtcw8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Logging.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\j2o69kenk7-qafrifugjr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000098512462"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10150"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s5dgAwhL76UGfn7D0m4q5I+yLRcS+nJWpzhUIVGSfxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zqt4wAqLTq6CNrW8Vg4VqscChF4LBP3VUBV8XGJtcw8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zqt4wAqLTq6CNrW8Vg4VqscChF4LBP3VUBV8XGJtcw8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Logging.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\j2o69kenk7-qafrifugjr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s5dgAwhL76UGfn7D0m4q5I+yLRcS+nJWpzhUIVGSfxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s5dgAwhL76UGfn7D0m4q5I+yLRcS+nJWpzhUIVGSfxo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Tokens.log61ajt28.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C+1p0Fff1meaAJxa5LX5Yac0hUfWgyG3yCAWnM30Nak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "log61ajt28"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.IdentityModel.Tokens.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C+1p0Fff1meaAJxa5LX5Yac0hUfWgyG3yCAWnM30Nak="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Tokens.log61ajt28.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\wmcohzg9vx-log61ajt28.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000008949187"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111741"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A2K/nEPbpgVy68YJ5k+y6uQOPNZ4qZCW4Le1MPpqTiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"C+1p0Fff1meaAJxa5LX5Yac0hUfWgyG3yCAWnM30Nak=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "log61ajt28"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.IdentityModel.Tokens.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C+1p0Fff1meaAJxa5LX5Yac0hUfWgyG3yCAWnM30Nak="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Tokens.log61ajt28.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\wmcohzg9vx-log61ajt28.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A2K/nEPbpgVy68YJ5k+y6uQOPNZ4qZCW4Le1MPpqTiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "log61ajt28"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.IdentityModel.Tokens.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A2K/nEPbpgVy68YJ5k+y6uQOPNZ4qZCW4Le1MPpqTiw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Tokens.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Tokens.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C+1p0Fff1meaAJxa5LX5Yac0hUfWgyG3yCAWnM30Nak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C+1p0Fff1meaAJxa5LX5Yac0hUfWgyG3yCAWnM30Nak="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Tokens.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\wmcohzg9vx-log61ajt28.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000008949187"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111741"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A2K/nEPbpgVy68YJ5k+y6uQOPNZ4qZCW4Le1MPpqTiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"C+1p0Fff1meaAJxa5LX5Yac0hUfWgyG3yCAWnM30Nak=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C+1p0Fff1meaAJxa5LX5Yac0hUfWgyG3yCAWnM30Nak="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.IdentityModel.Tokens.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\wmcohzg9vx-log61ajt28.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A2K/nEPbpgVy68YJ5k+y6uQOPNZ4qZCW4Le1MPpqTiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A2K/nEPbpgVy68YJ5k+y6uQOPNZ4qZCW4Le1MPpqTiw="
         }
       ]
     },
@@ -34243,6 +36325,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-47RsFn8XFUo2lXYQccePwUlbCgYGaFMfwvSW8HiYeIA="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.IdentityModel.Tokens.Jwt.e12aoin6r0.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IdentityModel.Tokens.Jwt.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LkeH1GARiiqgGgnujCqOhCWQCXAsYZiMfwYKrlO/4wY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e12aoin6r0"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/System.IdentityModel.Tokens.Jwt.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LkeH1GARiiqgGgnujCqOhCWQCXAsYZiMfwYKrlO/4wY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.IdentityModel.Tokens.Jwt.e12aoin6r0.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\7fm76am4jx-e12aoin6r0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032663727"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30614"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R/V2coxfD1vGmAlPwGfZRw/ceWjzGixHJ5D1RV0rKO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LkeH1GARiiqgGgnujCqOhCWQCXAsYZiMfwYKrlO/4wY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e12aoin6r0"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/System.IdentityModel.Tokens.Jwt.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LkeH1GARiiqgGgnujCqOhCWQCXAsYZiMfwYKrlO/4wY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.IdentityModel.Tokens.Jwt.e12aoin6r0.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\7fm76am4jx-e12aoin6r0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30614"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R/V2coxfD1vGmAlPwGfZRw/ceWjzGixHJ5D1RV0rKO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e12aoin6r0"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/System.IdentityModel.Tokens.Jwt.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R/V2coxfD1vGmAlPwGfZRw/ceWjzGixHJ5D1RV0rKO4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.IdentityModel.Tokens.Jwt.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IdentityModel.Tokens.Jwt.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LkeH1GARiiqgGgnujCqOhCWQCXAsYZiMfwYKrlO/4wY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LkeH1GARiiqgGgnujCqOhCWQCXAsYZiMfwYKrlO/4wY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.IdentityModel.Tokens.Jwt.wasm",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\7fm76am4jx-e12aoin6r0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032663727"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30614"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R/V2coxfD1vGmAlPwGfZRw/ceWjzGixHJ5D1RV0rKO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LkeH1GARiiqgGgnujCqOhCWQCXAsYZiMfwYKrlO/4wY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LkeH1GARiiqgGgnujCqOhCWQCXAsYZiMfwYKrlO/4wY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.IdentityModel.Tokens.Jwt.wasm.gz",
+      "AssetFile": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\Debug\\net9.0\\compressed\\7fm76am4jx-e12aoin6r0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30614"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R/V2coxfD1vGmAlPwGfZRw/ceWjzGixHJ5D1RV0rKO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 08:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R/V2coxfD1vGmAlPwGfZRw/ceWjzGixHJ5D1RV0rKO4="
         }
       ]
     },

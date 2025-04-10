@@ -2,8 +2,10 @@
 @layout MainLayout
 @using Front.Models
 @using Front.Service
+@using Blazored.LocalStorage
 @inject IPostService PostService
 @inject NavigationManager Navigation
+@inject ILocalStorageService localStorage
 
 <h3>All Posts</h3>
 
@@ -39,6 +41,15 @@ else
 
     protected override async Task OnInitializedAsync()
     {
+        string token = await localStorage.GetItemAsync<string>("authToken");
+        bool isLoggedIn = !string.IsNullOrEmpty(token);
+
+        if (!isLoggedIn)
+        {
+            Navigation.NavigateTo("/errorlogin");
+            return;
+        }
+
         try
         {
             posts = await PostService.GetAllPostsAsync();
@@ -52,6 +63,7 @@ else
             loading = false;
         }
     }
+
 
     private void ViewPostDetails(int postId)
     {
