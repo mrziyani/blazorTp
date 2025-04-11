@@ -6,5 +6,6 @@ namespace Front.Service
     {
         Task<List<Post>> GetAllPostsAsync();
         Task<Post> GetPostById(int id);
+        Task<PostDto> GetPostWithCommentsAsync(int id);
     }
 }

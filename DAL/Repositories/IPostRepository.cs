@@ -17,6 +17,9 @@ namespace DAL.Repositories
 
         //go
         Task<IEnumerable<Post>> GetPostsByUserIdAsync(int userId);
+
+        //
+        Task<PostDto1> reda(int id);
     }
 
 }

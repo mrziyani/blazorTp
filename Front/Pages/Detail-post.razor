@@ -30,13 +30,16 @@ else if (post != null)
     </div>
 
     <h5>Comments</h5>
-    @if (comments != null && comments.Any())
+    @if (post.Comments != null && post.Comments.Any())
     {
-        foreach (var comment in comments)
+        foreach (var comment in post.Comments)
         {
             <div class="border rounded p-2 mb-2">
                 <p>@comment.Content</p>
-                <small class="text-muted">By <strong>@comment.Username</strong> at @comment.CreatedAt.ToString("g")</small>
+                <small class="text-muted">
+                    By <strong>@(comment.User?.Username ?? "Unknown")</strong> at @comment.CreatedAt.ToString("g")
+                </small>
+
             </div>
         }
     }
@@ -55,8 +58,7 @@ else if (post != null)
 @code {
     [Parameter] public int PostId { get; set; }
 
-    private Post post;
-    private List<CommentWithUser> comments;
+    private PostDto post;
     private string newCommentContent;
     private bool loading = true;
     private string errorMessage;
@@ -76,8 +78,7 @@ else if (post != null)
 
         try
         {
-            post = await PostService.GetPostById(PostId);
-            comments = await CommentService.GetCommentsWithUserAsync(PostId);
+            post = await PostService.GetPostWithCommentsAsync(PostId);
         }
         catch (Exception ex)
         {
@@ -104,7 +105,7 @@ else if (post != null)
             var success = await CommentService.CreateCommentAsync(newComment);
             if (success)
             {
-                comments = await CommentService.GetCommentsWithUserAsync(PostId);
+                post = await PostService.GetPostWithCommentsAsync(PostId);
                 newCommentContent = string.Empty;
             }
             else

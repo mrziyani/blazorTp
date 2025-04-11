@@ -8,6 +8,7 @@ namespace Front.Service
         private readonly HttpClient _httpClient;
         private readonly string _getPostsEndpoint = "https://localhost:7107/api/posts/GetAllPosts";
         private readonly string _getPostByIdEndpoint = "https://localhost:7107/api/posts/Getpostbyid";
+        private readonly string _getPostWithCommentsEndpoint = "https://localhost:7107/api/posts/reda";
 
         public PostService(HttpClient httpClient)
         {
@@ -28,6 +29,10 @@ namespace Front.Service
             }
 
             return null;
+        }
+        public async Task<PostDto> GetPostWithCommentsAsync(int id)
+        {
+            return await _httpClient.GetFromJsonAsync<PostDto>($"{_getPostWithCommentsEndpoint}/{id}");
         }
     }
 }

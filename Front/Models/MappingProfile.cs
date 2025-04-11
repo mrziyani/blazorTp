@@ -8,6 +8,9 @@ namespace Front.Models
         {
 
             CreateMap<Comment, CreateComment>().ReverseMap();
+            //CreateMap<Comment, CommentWithUser>()
+   // .ForMember(dest => dest.Username, opt => opt.MapFrom(src => src.User.Username));
+
         }
     }
 }

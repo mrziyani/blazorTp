@@ -71,6 +71,15 @@ namespace Service.Services
             return _mapper.Map<IEnumerable<CommentWithUserDto>>(comments);
         }
 
+        //
+
+        public async Task<DAL.Models.PostDto1> reda(int id)
+        {
+            var post = await _postRepository.reda(id); // suppose que c’est un Post
+            return _mapper.Map<DAL.Models.PostDto1>(post);
+        }
+
+
     }
 
 }

@@ -70,6 +70,17 @@ namespace WebAPI.Controllers
             var posts = await _postService.GetPostsByUserIdAsync(userId);
             return Ok(posts);
         }
+
+        [HttpGet("reda/{id}")]
+        public async Task<IActionResult> reda(int id)
+        {
+            var post = await _postService.reda(id);
+            if (post == null)
+            {
+                return NotFound();
+            }
+            return Ok(post);
+        }
     }
 
 }

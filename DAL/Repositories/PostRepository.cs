@@ -70,6 +70,47 @@ namespace DAL.Repositories
                                  .Where(p => p.UserId == userId)
                                  .ToListAsync();
         }
+
+        //
+
+        public async Task<PostDto1> reda(int id)
+        {
+            PostDto1 reda =  await _context.Posts
+                .Where(p => p.Id == id)
+                .Select(p => new PostDto1
+                {
+                    Id = p.Id,
+                    Title = p.Title,
+                    Content = p.Content,
+                    CreatedAt = p.CreatedAt,
+                    UserId = p.UserId,
+                    User = new UserDto1
+                    {
+                        Id = p.User.Id,
+                        Username = p.User.Username,
+                        Email = p.User.Email
+                    },
+                    Comments = p.Comments.Select(c => new CommentWithUserDto1
+                    {
+                        Id = c.Id,
+                        Content = c.Content,
+                        CreatedAt = c.CreatedAt,
+                        PostId = c.PostId,
+                        UserId = c.UserId,
+                        User = new UserDto1
+                        {
+                            Id = c.User.Id,
+                            Username = c.User.Username,
+                            Email = c.User.Email
+                        }
+                    }).ToList()
+                })
+                .FirstOrDefaultAsync();
+            return reda;
+        }
+
+
+
     }
 
 }
