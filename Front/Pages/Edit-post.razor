@@ -1,0 +1,92 @@
+﻿@page "/edit-post/{PostId:int}"
+@using Front.Models
+@using Front.Service
+@inject IPostService PostService
+@inject NavigationManager NavigationManager
+
+<h3>Edit Post</h3>
+
+@if (loading)
+{
+    <p><em>Loading...</em></p>
+}
+else if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+else if (post != null)
+{
+    <EditForm Model="@post" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <InputText id="title" class="form-control" @bind-Value="post.Title" />
+        </div>
+
+        <div class="mb-3">
+            <label for="content" class="form-label">Content</label>
+            <InputTextArea id="content" class="form-control" @bind-Value="post.Content" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="Cancel">Cancel</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter] public int PostId { get; set; }
+    private Post post;
+    private bool loading = true;
+    private string errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Charge le post existant via son ID
+            post = await PostService.GetPostById(PostId);
+            if (post == null)
+            {
+                errorMessage = "Post not found.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Error loading post: {ex.Message}";
+        }
+        finally
+        {
+            loading = false;
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            // Appelle la méthode UpdatePostAsync pour mettre à jour le post
+            bool success = await PostService.UpdatePostAsync(post);
+            if (success)
+            {
+                // Redirection vers la page de détails après mise à jour
+                NavigationManager.NavigateTo($"/post-details/{PostId}");
+            }
+            else
+            {
+                errorMessage = "Failed to update post.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Error during update: {ex.Message}";
+        }
+    }
+
+    private void Cancel()
+    {
+        // Annule l'édition et retourne à la page de détails du post
+        NavigationManager.NavigateTo($"/post-details/{PostId}");
+    }
+}

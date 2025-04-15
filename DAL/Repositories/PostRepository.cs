@@ -37,6 +37,7 @@ namespace DAL.Repositories
 
         public async Task<Post> UpdatePostAsync(Post post)
         {
+            post.UserId = 1;
             _context.Posts.Update(post);
             await _context.SaveChangesAsync();
             return post;

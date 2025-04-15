@@ -45,17 +45,19 @@ namespace WebAPI.Controllers
             return CreatedAtAction(nameof(GetPostById), new { id = createdPost.Id }, createdPost);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("UpdatePost/{id}")]
         public async Task<IActionResult> UpdatePost(int id, [FromBody] Post post)
         {
-            if (post == null || post.Id != id)
+            if (post == null)
             {
                 return BadRequest();
             }
-
+            // Assign the id from the route to the post instance
+            post.Id = id;
             await _postService.UpdatePostAsync(post);
             return NoContent();
         }
+
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePost(int id)

@@ -9,7 +9,7 @@ namespace Front.Service
         private readonly string _getPostsEndpoint = "https://localhost:7107/api/posts/GetAllPosts";
         private readonly string _getPostByIdEndpoint = "https://localhost:7107/api/posts/Getpostbyid";
         private readonly string _getPostWithCommentsEndpoint = "https://localhost:7107/api/posts/reda";
-
+        private readonly string _updateEndpoint = "https://localhost:7107/api/posts/UpdatePost";
         public PostService(HttpClient httpClient)
         {
             _httpClient = httpClient;
@@ -34,5 +34,12 @@ namespace Front.Service
         {
             return await _httpClient.GetFromJsonAsync<PostDto>($"{_getPostWithCommentsEndpoint}/{id}");
         }
+        public async Task<bool> UpdatePostAsync(Post post)
+        {
+            
+            var response = await _httpClient.PutAsJsonAsync($"{_updateEndpoint}/{post.Id}", post);
+            return response.IsSuccessStatusCode;
+        }
+
     }
 }

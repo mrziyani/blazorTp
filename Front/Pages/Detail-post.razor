@@ -29,6 +29,9 @@ else if (post != null)
         </div>
     </div>
 
+    <!-- Bouton pour éditer le post -->
+    <button class="btn btn-secondary mb-3" @onclick="NavigateToEdit">Edit Post</button>
+
     <h5>Comments</h5>
     @if (post.Comments != null && post.Comments.Any())
     {
@@ -39,7 +42,6 @@ else if (post != null)
                 <small class="text-muted">
                     By <strong>@(comment.User?.Username ?? "Unknown")</strong> at @comment.CreatedAt.ToString("g")
                 </small>
-
             </div>
         }
     }
@@ -113,5 +115,11 @@ else if (post != null)
                 errorMessage = "Failed to submit comment.";
             }
         }
+    }
+
+    private void NavigateToEdit()
+    {
+        // Navigation vers la page d'édition en passant l'ID du post dans l'URL
+        NavigationManager.NavigateTo($"/edit-post/{PostId}");
     }
 }

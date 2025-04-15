@@ -222,7 +222,7 @@
         }
       }
     },
-    "/api/posts/{id}": {
+    "/api/posts/UpdatePost/{id}": {
       "put": {
         "tags": [
           "Post"
@@ -262,7 +262,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/posts/{id}": {
       "delete": {
         "tags": [
           "Post"

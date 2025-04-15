@@ -2259,11 +2259,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\Front.csproj",
+      "projectUniqueName": "C:\\Users\\rziyani\\Desktop\\TpDayTwo\\Front\\Front.csproj",
       "projectName": "Front",
-      "projectPath": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\Front.csproj",
+      "projectPath": "C:\\Users\\rziyani\\Desktop\\TpDayTwo\\Front\\Front.csproj",
       "packagesPath": "C:\\Users\\rziyani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rziyani\\source\\repos\\TpDay2\\Front\\obj\\",
+      "outputPath": "C:\\Users\\rziyani\\Desktop\\TpDayTwo\\Front\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
