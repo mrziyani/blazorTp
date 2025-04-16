@@ -66,11 +66,11 @@ else if (post != null)
     {
         try
         {
-            // Appelle la méthode UpdatePostAsync pour mettre à jour le post
+           
             bool success = await PostService.UpdatePostAsync(post);
             if (success)
             {
-                // Redirection vers la page de détails après mise à jour
+                
                 NavigationManager.NavigateTo($"/post-details/{PostId}");
             }
             else
@@ -86,7 +86,7 @@ else if (post != null)
 
     private void Cancel()
     {
-        // Annule l'édition et retourne à la page de détails du post
+       
         NavigationManager.NavigateTo($"/post-details/{PostId}");
     }
 }
